@@ -25,7 +25,7 @@ import Axios from 'axios';
 
 const App = () => {
   if (process.env.NODE_ENV === 'production')
-    Axios.defaults.baseURL = 'https://gocamp-server-production.up.railway.app/';
+    Axios.defaults.baseURL = 'https://gocamp-server.onrender.com/';
 
   return (
     <Router>
